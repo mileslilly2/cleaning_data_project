@@ -2,6 +2,8 @@ In my dataset, I used grep to filter all of the columns that included mean and s
 
 I merged all of the train_X, train_Y, test_X, and test_y data into a single dataframe. I accomplished this by using the ‘rbind’ function to merge the training and set data into two different data frames. I then used the colnames function to add column names to both the X and the variables. My column names for X are V2 in the ‘feature.txt’ file. I then used the ‘cbind’ function to merge the X and Y data into a single dataframe. To find all of the relevant columns, I used grep.
 
+I created a new data frame with all of the means of each column and row in my 'tidy' dataset. The first two rows of col_mean can be ignored, as they are means ID and activity. Each row can be indexed to its corrisponding row in the 'tidy' dataset. 
+
 
 Here are all the variable names in the 
 
